@@ -1,1 +1,18 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <header>
+      <h1>{{ page.title }}</h1>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <p>{{ site.data }}</p> <!-- You can put your name and the date here -->
+    </footer>
+  </body>
+</html>
